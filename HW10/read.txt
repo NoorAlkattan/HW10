@@ -1,0 +1,30 @@
+var a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+for(i=0;i<a.length;i++){
+    if(a[i]%2 === 0){        
+    
+        console.log (a[i].split("").reverse().join(""));
+       
+    } else 
+       
+    {	
+        console.log (a[i]);
+    }
+}
+
+
+Ruby
+
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+
+a.each do |element|
+   if(element%2 == 0)   
+     
+       puts (element.split("").reverse().join(""));
+      
+    else 
+      
+     
+        puts (element)
+  end
+  end
