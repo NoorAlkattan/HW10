@@ -1,0 +1,34 @@
+var b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+
+
+ 
+ console.log (b);
+ var i=0;
+ y=[];
+ for(i=0;i<b.length;i++){
+    y[i]=(2/3*b[i]+1/2);
+    console.log (y[i]);
+    y[i]=y[i]+b[i];
+    console.log (y[i]);
+ 
+ }	
+ 
+ 
+ Ruby
+ 
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50]
+
+
+ 
+ puts (b)
+  i=0
+  y=[]
+ 
+b.each do |element|
+
+    y[i]=2/3.to_f*element+1/2.to_f
+    puts y[i]
+    y[i]=y[i]+element
+    puts y[i]
+
+end	
