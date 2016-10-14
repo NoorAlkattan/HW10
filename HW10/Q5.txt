@@ -1,0 +1,2 @@
+We can't write Ruby program using innerHTML of <p> tag , because Ruby does work 
+work in the server site while HMTL , javascript and CSS work on the client site
